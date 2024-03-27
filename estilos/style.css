@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+ /*Configurações gerais(Mobile first) */
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+html {
+    background-color: salmon;
+}
+
+header {
+    background-color: rgb(255, 217, 171);
+}
+header > h1 {
+    text-align: center;
+    text-shadow: 3px 3px 2px rgba(184, 155, 120, 0.623);
+    padding-top: 35px;
+    padding-bottom: 43px;
+    font-variant: small-caps;
+    font-size: 2.5em;
+}
+
+header > nav > ul > li > a {
+    background-color: rgb(255, 172, 163);
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 11px;
+    font-weight: bolder;
+    
+}
+
+header > nav > ul > li {
+    padding: 0.5px;
+}
+    
+span#burguer {
+    text-align: center;
+    display: block;
+    background-color: rgb(248, 137, 124);
+    color: black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+nav {
+    display: none;
+}
+
+main {
+    background-color: white;
+    height: 100%;
+    max-width: 768px;
+    min-width: 390px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 20px 0px
+}
+main > h2 {
+    padding-bottom: 25px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.329);
+}
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: rgb(165, 113, 108);
+
+}
